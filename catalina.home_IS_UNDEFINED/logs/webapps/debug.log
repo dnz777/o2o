@@ -1,0 +1,12 @@
+2021-09-04 10:01:06:652 [main] DEBUG com.imooc.o2o.util.ImageUtil -current relativAddr is:upload\item\shop\1\2021090410010666834.jpg
+2021-09-04 10:01:06:662 [main] DEBUG com.imooc.o2o.util.ImageUtil -/D:/javaCode/o2o/target/test-classes//waterMark.jpg
+2021-09-04 10:01:06:810 [main] DEBUG com.imooc.o2o.dao.ProductDao.instertProduct -==>  Preparing: insert into tb_product(product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, product_category_id, shop_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2021-09-04 10:01:06:838 [main] DEBUG com.imooc.o2o.dao.ProductDao.instertProduct -==> Parameters: 测试商品1(String), 测试商品1(String), upload\item\shop\1\2021090410010666834.jpg(String), null, null, 20(Integer), 2021-09-04 10:01:06.649(Timestamp), 2021-09-04 10:01:06.649(Timestamp), 1(Integer), 1(Long), 1(Long)
+2021-09-04 10:01:06:842 [main] DEBUG com.imooc.o2o.dao.ProductDao.instertProduct -<==    Updates: 1
+2021-09-04 10:01:06:855 [main] DEBUG com.imooc.o2o.util.ImageUtil -current relativeAddr is :upload\item\shop\1\2021090410010629021.jpg
+2021-09-04 10:01:06:855 [main] DEBUG com.imooc.o2o.util.ImageUtil -current complete addr is :D:\web\image\upload\item\shop\1\2021090410010629021.jpg
+2021-09-04 10:01:06:890 [main] DEBUG com.imooc.o2o.util.ImageUtil -current relativeAddr is :upload\item\shop\1\2021090410010617150.jpg
+2021-09-04 10:01:06:891 [main] DEBUG com.imooc.o2o.util.ImageUtil -current complete addr is :D:\web\image\upload\item\shop\1\2021090410010617150.jpg
+2021-09-04 10:01:06:932 [main] DEBUG c.i.o2o.dao.ProductImgDao.batchInsertProductImg -==>  Preparing: insert into tb_product_img( img_addr,img_desc,priority,create_time,product_id) values ( ?, ?, ?, ?, ? ) , ( ?, ?, ?, ?, ? ) 
+2021-09-04 10:01:06:932 [main] DEBUG c.i.o2o.dao.ProductImgDao.batchInsertProductImg -==> Parameters: upload\item\shop\1\2021090410010629021.jpg(String), null, null, 2021-09-04 10:01:06.89(Timestamp), 20(Long), upload\item\shop\1\2021090410010617150.jpg(String), null, null, 2021-09-04 10:01:06.915(Timestamp), 20(Long)
+2021-09-04 10:01:06:935 [main] DEBUG c.i.o2o.dao.ProductImgDao.batchInsertProductImg -<==    Updates: 2

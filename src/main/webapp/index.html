@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>注册商店</title>
+    <meta name="description" content="MSUI: Build mobile apps with simple HTML, CSS, and JS components.">
+    <meta name="author" content="阿里巴巴国际UED前端">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- Google Web Fonts -->
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css"
+            integrity="sha384-cLRrMq39HOZdvE0j6yBojO4+1PrHfB7a9l5qLcmRm/fiWXYY+CndJPmyu5FV/9Tw"
+            crossorigin="anonymous"
+    />
+
+</head>
+<body>
+<div class="mdui-container">
+    <!-- 固定标签 -->
+    <div class="mdui-textfield">
+        <i class="mdui-icon material-icons">名称</i>
+        <label class="mdui-textfield-label">Shop name</label>
+        <input class="mdui-textfield-input" type="text" id="shop-name"/>
+    </div>
+
+    <!-- 浮动标签、多行文本框 -->
+    <div class="mdui-textfield mdui-textfield-floating-label">
+        <i class="mdui-icon material-icons">textsms</i>
+        <label class="mdui-textfield-label">Message</label>
+        <textarea class="mdui-textfield-input"></textarea>
+    </div>
+
+    <div class="mdui-textfield">
+        <i class="mdui-icon material-icons">email</i>
+        <input class="mdui-textfield-input" type="email" placeholder="Email"/>
+    </div>
+
+    <!-- 固定标签 -->
+    <div class="mdui-textfield">
+        <i class="mdui-icon material-icons">account_circle</i>
+        <label class="mdui-textfield-label">User name</label>
+        <input class="mdui-textfield-input" type="text"/>
+    </div>
+
+    <!-- 浮动标签、多行文本框 -->
+    <div class="mdui-textfield mdui-textfield-floating-label">
+        <i class="mdui-icon material-icons">textsms</i>
+        <label class="mdui-textfield-label">Message</label>
+        <textarea class="mdui-textfield-input"></textarea>
+    </div>
+
+<!--    &lt;!&ndash; 禁用状态 &ndash;&gt;-->
+<!--    <div class="mdui-textfield">-->
+<!--        <i class="mdui-icon material-icons">lock</i>-->
+<!--        <input class="mdui-textfield-input" type="text" placeholder="Disabled" disabled/>-->
+<!--    </div>-->
+</div>
+<div class="mdui-row-xs-2">
+    <div class="mdui-col">
+        <button class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-ripple">保存</button>
+    </div>
+    <div class="mdui-col">
+        <button class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-ripple">取消</button>
+    </div>
+</div>
+<script
+        src="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/js/mdui.min.js"
+        integrity="sha384-gCMZcshYKOGRX9r6wbDrvF+TcCCswSHFucUzUPwka+Gr+uHgjlYvkABr95TCOz3A"
+        crossorigin="anonymous"
+></script>
+</body>
+</html>
